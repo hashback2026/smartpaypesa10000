@@ -15,7 +15,7 @@ const queue = new PQueue({
   intervalCap: 3
 });
 
-const API_URL = "https://api.smartpaypesa.com/v1/stkpush";
+const API_URL = "https://api.smartpaypesa.com/v1/initiatestk";
 
 async function sendSTK(phone, amount, reference) {
   try {
